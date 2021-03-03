@@ -8,4 +8,5 @@ async function example() {
     await driver.findElement(By.name("q")).sendKeys("Selenium",Key.RETURN);
 }
 
+//Runs example function
 example();
