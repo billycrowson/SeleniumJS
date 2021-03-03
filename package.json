@@ -4,7 +4,7 @@
   "description": "Selenium Example Project",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run wdio.conf.js"
+    "test": "node_modules/.bin/wdio ./wdio.conf.js"
   },
   "author": "Billy",
   "license": "MIT",
