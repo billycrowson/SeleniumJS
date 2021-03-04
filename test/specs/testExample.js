@@ -8,7 +8,6 @@
 //         $("*[name='li2']").click();
 //         browser.pause(1000);
 //        $("#sampletodotext").setValue("Lambdatest\n");
-        
 //         assert.strictEqual(browser.getTitle(), "Sample page - lambdatest.com");
         
 //     });
