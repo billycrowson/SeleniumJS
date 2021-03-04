@@ -1,6 +1,7 @@
 const elementUtil = require('../utils/elementUtils');
+const Page = require('./page');
 
-class herokuapp {
+class herokuapp extends Page {
 
     //page locators:
     get header() {return $("//h1")}
