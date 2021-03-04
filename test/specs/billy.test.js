@@ -2,7 +2,7 @@ const assert = require("assert");
 const herokuapp = require("../../pageobjects/herokuapp.page");
 
 describe("Billy's Frist Test", function(){
-    it("Lambdatest Demo TestCase", function() {
+    it("Test 1", function() {
         launchBrowser();
         verifyHeader();
         clickAbTestingLink();
@@ -11,7 +11,9 @@ describe("Billy's Frist Test", function(){
 
 function launchBrowser(){
 
-    browser.url("https://the-internet.herokuapp.com/");
+    //This uses the base URL defined in wdio.conf.js
+    browser.url('/');
+    browser.maximizeWindow();
 }
 
 function verifyHeader(){
