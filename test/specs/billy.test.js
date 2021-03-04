@@ -7,6 +7,11 @@ describe("Billy's Frist Test", function(){
         verifyHeader();
         clickAbTestingLink();
     });
+    it("Test 2", function() {
+        launchBrowser();
+        verifyHeader();
+        clickAbTestingLink();
+    });
 });
 
 function launchBrowser(){
