@@ -1,7 +1,7 @@
 const assert = require("assert");
 const herokuapp = require("../../pageobjects/herokuapp.page");
 
-class billyTest {
+class headerPass {
 
     //This calls all of the functions that make up the test run
     testExample() {
@@ -35,4 +35,4 @@ class billyTest {
 
 
 
-module.exports = new billyTest();
+module.exports = new headerPass();
